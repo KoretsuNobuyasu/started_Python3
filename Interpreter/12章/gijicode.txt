@@ -1,0 +1,10 @@
+for each line in the text file:
+    read the line
+    strip leading and trailling spaces
+    if 'quit' occurs in the lower-case copy of the line:
+        stop
+    else:
+        split the country and capital by the comma character
+        trim any leading and trailing spaces
+        convert the country and capital to titlecase
+        print the capital, a comma, and the country
